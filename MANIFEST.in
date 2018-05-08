@@ -1,0 +1,11 @@
+graft e2e
+graft tests
+
+include LICENSE
+include *.md
+include *.rst
+include Makefile
+include tox.ini
+include .pylintrc
+
+exclude *.pyc
